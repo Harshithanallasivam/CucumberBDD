@@ -1,0 +1,1221 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2026-01-27T06:36:05.020Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3002400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddelements.framework.HooksTest.testBefore()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Login form validation",
+        "description": "",
+        "id": "user-login-update-status;login-form-validation;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1000600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddelements.framework.HooksTest.testAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "The user is in Login form",
+            "match": {
+              "location": "com.bddelements.framework.TestPara.Login1()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "The user enters \"admin\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.bddelements.framework.TestPara.Login2(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "The user enters \"admin123\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.bddelements.framework.TestPara.Login3(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "The user click on Login button",
+            "match": {
+              "location": "com.bddelements.framework.TestPara.Login4()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1001300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 999200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "The user get the status message as \"pass\" in alert",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pass\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.bddelements.framework.TestPara.Login5(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag7"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2026-01-27T06:36:05.073Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddelements.framework.HooksTest.testBefore()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Login form validation",
+        "description": "",
+        "id": "user-login-update-status;login-form-validation;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 998600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddelements.framework.HooksTest.testAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "The user is in Login form",
+            "match": {
+              "location": "com.bddelements.framework.TestPara.Login1()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "The user enters \"mphasis\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mphasis\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.bddelements.framework.TestPara.Login2(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "The user enters \"mphasis123\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mphasis123\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.bddelements.framework.TestPara.Login3(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "The user click on Login button",
+            "match": {
+              "location": "com.bddelements.framework.TestPara.Login4()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1001800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "The user get the status message as \"Fail\" in alert",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fail\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.bddelements.framework.TestPara.Login5(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag7"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2026-01-27T06:36:05.093Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddelements.framework.HooksTest.testBefore()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Login form validation",
+        "description": "",
+        "id": "user-login-update-status;login-form-validation;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddelements.framework.HooksTest.testAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "The user is in Login form",
+            "match": {
+              "location": "com.bddelements.framework.TestPara.Login1()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "The user enters \"office\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"office\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.bddelements.framework.TestPara.Login2(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "The user enters \"office462\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"office462\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.bddelements.framework.TestPara.Login3(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "The user click on Login button",
+            "match": {
+              "location": "com.bddelements.framework.TestPara.Login4()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "The user get the status message as \"pass\" in alert",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pass\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.bddelements.framework.TestPara.Login5(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag7"
+          }
+        ]
+      }
+    ],
+    "name": "User Login Update Status",
+    "description": "",
+    "id": "user-login-update-status",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/bddelements/framework/LoginFeature.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2026-01-27T06:36:05.112Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddelements.framework.HooksTest.testBefore()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddelements.framework.HooksTest.BeforeWithTag()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": ";title-of-your-scenario-outline;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddelements.framework.HooksTest.AfterWithTag()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddelements.framework.HooksTest.testAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "a global administrator named Greg",
+            "match": {
+              "location": "com.bddelements.framework.StepsDef1.bg()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 43,
+            "name": "I want to write a step with \"Anush\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Anush\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.bddelements.framework.TestPara.testparam(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4999200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 44,
+            "name": "I want to enter 1234 is as idnum",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234",
+                  "offset": 16
+                }
+              ],
+              "location": "com.bddelements.framework.TestPara.testparam1(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6999100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 45,
+            "name": "I want to enter 43000.43 as salary",
+            "match": {
+              "arguments": [
+                {
+                  "val": "43000.43",
+                  "offset": 16
+                }
+              ],
+              "location": "com.bddelements.framework.TestPara.testparam2(double)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag6"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2026-01-27T06:36:05.142Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddelements.framework.HooksTest.testBefore()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddelements.framework.HooksTest.BeforeWithTag()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": ";title-of-your-scenario-outline;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddelements.framework.HooksTest.AfterWithTag()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddelements.framework.HooksTest.testAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "a global administrator named Greg",
+            "match": {
+              "location": "com.bddelements.framework.StepsDef1.bg()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 43,
+            "name": "I want to write a step with \"Bruno\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bruno\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.bddelements.framework.TestPara.testparam(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 44,
+            "name": "I want to enter 3245 is as idnum",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3245",
+                  "offset": 16
+                }
+              ],
+              "location": "com.bddelements.framework.TestPara.testparam1(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 45,
+            "name": "I want to enter 32440.32 as salary",
+            "match": {
+              "arguments": [
+                {
+                  "val": "32440.32",
+                  "offset": 16
+                }
+              ],
+              "location": "com.bddelements.framework.TestPara.testparam2(double)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag6"
+          }
+        ]
+      }
+    ],
+    "name": "To test the basic calculator",
+    "description": "",
+    "id": "to-test-the-basic-calculator",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/bddelements/framework/TestFeature1.feature",
+    "tags": []
+  },
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2026-01-27T06:36:05.158Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddelements.framework.HooksTest.testBefore()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddelements.framework.HooksTest.BeforeWithTag()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddelements.framework.HooksTest.AfterWithTag()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddelements.framework.HooksTest.testAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1003500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I want to write a step with precondition",
+            "match": {
+              "location": "com.bddelements.framework.StepsDef2.Step1()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "some other precondition",
+            "match": {
+              "location": "com.bddelements.framework.StepsDef2.Step2()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bddelements.framework.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag3"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/bddelements/framework/TestFeature2.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

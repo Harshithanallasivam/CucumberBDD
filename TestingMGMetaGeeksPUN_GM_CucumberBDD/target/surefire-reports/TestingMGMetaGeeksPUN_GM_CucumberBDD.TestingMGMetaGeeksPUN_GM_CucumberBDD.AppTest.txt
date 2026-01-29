@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: TestingMGMetaGeeksPUN_GM_CucumberBDD.TestingMGMetaGeeksPUN_GM_CucumberBDD.AppTest
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.723 s -- in TestingMGMetaGeeksPUN_GM_CucumberBDD.TestingMGMetaGeeksPUN_GM_CucumberBDD.AppTest
