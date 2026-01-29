@@ -1,0 +1,670 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2026-01-27T07:06:14.776Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2015000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumberStepDef.HooksTest.testBefore()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Login form validation",
+        "description": "",
+        "id": "user-login-update-status;login-form-validation;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumberStepDef.HooksTest.testAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "The user is in Login form",
+            "match": {
+              "location": "cucumberStepDef.TestPara.Login1()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 989800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "The user enters \"admin\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 16
+                }
+              ],
+              "location": "cucumberStepDef.TestPara.Login2(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "The user enters \"admin123\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 16
+                }
+              ],
+              "location": "cucumberStepDef.TestPara.Login3(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "The user click on Login button",
+            "match": {
+              "location": "cucumberStepDef.TestPara.Login4()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1010200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "The user get the status message as \"pass\" in alert",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pass\"",
+                  "offset": 35
+                }
+              ],
+              "location": "cucumberStepDef.TestPara.Login5(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag7"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2026-01-27T07:06:14.809Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1002200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumberStepDef.HooksTest.testBefore()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Login form validation",
+        "description": "",
+        "id": "user-login-update-status;login-form-validation;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumberStepDef.HooksTest.testAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "The user is in Login form",
+            "match": {
+              "location": "cucumberStepDef.TestPara.Login1()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "The user enters \"mphasis\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mphasis\"",
+                  "offset": 16
+                }
+              ],
+              "location": "cucumberStepDef.TestPara.Login2(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "The user enters \"mphasis123\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mphasis123\"",
+                  "offset": 16
+                }
+              ],
+              "location": "cucumberStepDef.TestPara.Login3(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "The user click on Login button",
+            "match": {
+              "location": "cucumberStepDef.TestPara.Login4()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 998700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "The user get the status message as \"Fail\" in alert",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fail\"",
+                  "offset": 35
+                }
+              ],
+              "location": "cucumberStepDef.TestPara.Login5(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag7"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2026-01-27T07:06:14.826Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumberStepDef.HooksTest.testBefore()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Login form validation",
+        "description": "",
+        "id": "user-login-update-status;login-form-validation;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumberStepDef.HooksTest.testAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1422200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "The user is in Login form",
+            "match": {
+              "location": "cucumberStepDef.TestPara.Login1()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "The user enters \"office\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"office\"",
+                  "offset": 16
+                }
+              ],
+              "location": "cucumberStepDef.TestPara.Login2(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1010500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "The user enters \"office462\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"office462\"",
+                  "offset": 16
+                }
+              ],
+              "location": "cucumberStepDef.TestPara.Login3(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1002000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "The user click on Login button",
+            "match": {
+              "location": "cucumberStepDef.TestPara.Login4()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1000600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Beforethestep()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "The user get the status message as \"pass\" in alert",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pass\"",
+                  "offset": 35
+                }
+              ],
+              "location": "cucumberStepDef.TestPara.Login5(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "cucumberStepDef.HooksTest.Afterthestep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag7"
+          }
+        ]
+      }
+    ],
+    "name": "User Login Update Status",
+    "description": "",
+    "id": "user-login-update-status",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/cucumberFeatureFie/LoginFeature.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
