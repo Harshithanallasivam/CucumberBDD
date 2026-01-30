@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="76.769">
+    <testcase classname="To perform SignUp" name="Validate signup using Excel data" time="76.624">
+        <system-out><![CDATA[Given the user must be in chrome browser....................................passed
+Given The user in the signup page...........................................passed
+When The user enters signup details from excel..............................passed
+And The user click on i am not a robot......................................passed
+And The user click on continue..............................................passed
+Then the user will enter in the website.....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

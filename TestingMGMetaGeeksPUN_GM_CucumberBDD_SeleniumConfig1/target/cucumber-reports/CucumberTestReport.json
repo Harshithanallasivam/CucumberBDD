@@ -1,0 +1,110 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "line": 21,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10540993800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user must be in chrome browser",
+            "match": {
+              "location": "PacStepDef.StepDef.setup()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2026-01-29T05:23:33.910Z",
+        "line": 25,
+        "name": "Validate signup using Excel data",
+        "description": "",
+        "id": "to-perform-signup;validate-signup-using-excel-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4508946500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The user in the signup page",
+            "match": {
+              "location": "PacStepDef.StepDef.signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22352599900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The user enters signup details from excel",
+            "match": {
+              "location": "PacStepDef.StepDef.enterSignupDetailsFromExcel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35003455800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The user click on i am not a robot",
+            "match": {
+              "location": "PacStepDef.StepDef.clickRobot()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4194245400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "The user click on continue",
+            "match": {
+              "location": "PacStepDef.StepDef.clickContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user will enter in the website",
+            "match": {
+              "location": "PacStepDef.StepDef.enterWebsite()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "To perform SignUp",
+    "description": "",
+    "id": "to-perform-signup",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/PacFeatureFile/ValidateTest1.feature",
+    "tags": []
+  }
+]
